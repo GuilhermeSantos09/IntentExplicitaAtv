@@ -7,20 +7,122 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/app_name"
+        android:layout_width="245dp"
+        android:layout_height="42dp"
+        android:text="Cadastro Jogador"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <EditText
+        android:id="@+id/nome_jogador"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Digite o nome do jogador"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <TextView
+        android:id="@+id/selecione_posicao"
+        android:layout_width="288dp"
+        android:layout_height="27dp"
+        android:autoSizeTextType="none"
+        android:text="Selecione as posições em que ele joga:"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <CheckBox
+        android:id="@+id/ckb_meia"
+        android:layout_width="146dp"
+        android:layout_height="39dp"
+        android:text="Meia"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <CheckBox
+        android:id="@+id/ckb_lateral"
+        android:layout_width="146dp"
+        android:layout_height="39dp"
+        android:text="Lateral"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <CheckBox
+        android:id="@+id/ckb_goleiro"
+        android:layout_width="146dp"
+        android:layout_height="39dp"
+        android:text="Goleiro"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <CheckBox
+        android:id="@+id/ckb_zagueiro"
+        android:layout_width="146dp"
+        android:layout_height="39dp"
+        android:text="Zagueiro"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <CheckBox
+        android:id="@+id/ckb_atacante"
+        android:layout_width="146dp"
+        android:layout_height="39dp"
+        android:text="Atacante"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <TextView
+        android:id="@+id/selecione_idade"
+        android:layout_width="145dp"
+        android:layout_height="29dp"
+        android:autoSizeTextType="none"
+        android:text="Seleciona a idade:"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <RadioGroup
+        android:id="@+id/radio_idades"
+        android:layout_width="201dp"
+        android:layout_height="159dp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="418dp">
+
+        <RadioButton
+            android:id="@+id/radio_idades_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entre 18 e 23" />
+
+        <RadioButton
+            android:id="@+id/radio_idades_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entre 24 e 29" />
+
+        <RadioButton
+            android:id="@+id/radio_idades_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entre 30 e 35" />
+
+        <RadioButton
+            android:id="@+id/radio_idades_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="36 ou mais" />
+    </RadioGroup>
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/cadastrar"
+        android:layout_width="133dp"
+        android:layout_height="56dp"
         android:text="Cadastrar"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="383dp" />
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="577dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
