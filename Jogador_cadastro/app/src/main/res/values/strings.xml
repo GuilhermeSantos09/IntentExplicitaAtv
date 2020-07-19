@@ -1,0 +1,26 @@
+<resources>>
+    <string name="app_name">Cadastro Jogador</string>
+    <string name="nome_jogador">Digite o nome do jogador</string>
+    <string name="selecione_posicao">Selecione as posições em que ele joga:</string>
+    <string name="ckb_goleiro">Goleiro</string>
+    <string name="ckb_zagueiro">Zagueiro</string>
+    <string name="ckb_lateral">Lateral</string>
+    <string name="ckb_meia">Meia</string>
+    <string name="ckb_atacante">Atacante</string>
+    <string name="selecione_idade">Seleciona a idade:</string>
+    <string name="radio_idades_1">Entre 18 e 23</string>
+    <string name="radio_idades_2">Entre 24 e 29</string>
+    <string name="radio_idades_3">Entre 30 e 35</string>
+    <string name="radio_idades_4">36 ou mais</string>
+    <string name="cadastrar">Cadastrar</string>
+    <item name="nome_jogador" type="id" />
+    <item name="ckb_goleiro" type="id" />
+    <item name="ckb_lateral" type="id" />
+    <item name="ckb_zagueiro" type="id" />
+    <item name="ckb_meia" type="id" />
+    <item name="ckb_atacante" type="id" />
+    <item name="radio_idades_1" type="id" />
+    <item name="radio_idades_2" type="id" />
+    <item name="radio_idades_3" type="id" />
+    <item name="radio_idades_4" type="id" />
+</resources>
